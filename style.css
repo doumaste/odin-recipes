@@ -1,6 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: bisque;
+    text-align: center;
 }
 /* buat kotak untuk menu di home */
 .menu,
@@ -65,8 +66,19 @@ h1 {
     background-color: beige;
     border:1px solid rgb(146, 121, 83);
     padding-left: 12px;
+    padding-bottom: 8px;
+    padding-top: 16px;
 }
 
 .dish{
     margin: 16px auto;
+}
+
+.container{
+    padding: 16px;
+    background-color: azure;
+    display: inline-block;
+    margin: 8px auto;
+    border-radius: 18px;
+    border: 1px solid bisque;
 }
