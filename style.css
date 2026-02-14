@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+/* buat kotak untuk menu di home */
+.menu,
+.ingredients,
+.steps{
+    padding-right: 100px;
+    border: 1px solid bisque;
+    display: flex;
+    margin: 20px auto;
+    background-color:bisque;
+    border-radius: 16px;
+}
+
+
+img{
+    width: auto;
+    height: 150px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title{
+    padding: 16px;
+    border: 1px solid rgb(224, 172, 93);
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    padding: 16px;
+    border: 1px solid rgb(224, 172, 93);
+    border-radius: 18px;
+    margin-bottom: 10px;
+    background-color: beige;
+}
+
+.steps{
+    padding: 16px;
+    border: 1px solid rgb(224, 172, 93);
+    border-radius: 18px;
+    margin-bottom: 10px;
+    background-color: beige;
+}
+
+.home{
+    width: auto;
+    height: 50px;
+}
+
+.menu{
+    text-align: left
+}
+
+.one,
+.two,
+.three{
+    margin-left: 12px;
+    background-color: beige;
+    border:1px solid rgb(146, 121, 83);
+    padding-left: 12px;
+}
+
+.dish{
+    margin: 16px auto;
+}
